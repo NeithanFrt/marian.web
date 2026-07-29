@@ -25,7 +25,7 @@ const dialogos = [
         imagen: "Media/-..webp"
     },
     {
-        texto: "Y a ver es obvio que usted me gusta pero de la misma manera es obvio que me cuesta bastante mostrarlo",
+        texto: "Y a ver es obvio que usted me llama la atención pero de la misma manera es obvio que me cuesta bastante mostrarlo",
         imagen: "Media/GatoUwU.png"
     },
     {
