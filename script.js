@@ -45,7 +45,7 @@ const dialogos = [
         imagen: "Media/Light.jpg"
     },
     {
-        texto: "No le meto mucho texto porque ésto es una manera impropia de comunicar cualquier cosa, me inventaré algo más",
+        texto: "No le meto mucho texto porque la idea era terminarlo hoy, me inventaré algo más",
         imagen: "Media/Angy.webp"
     },
     {
