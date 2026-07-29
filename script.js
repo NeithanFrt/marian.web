@@ -49,10 +49,6 @@ const dialogos = [
         imagen: "Media/Angy.webp"
     },
     {
-        texto: "Si es que no me ha bloqueado...",
-        imagen: "Media/-..webp"
-    },
-    {
         texto: "...",
         imagen: "Media/-..webp"
     },
