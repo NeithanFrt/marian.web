@@ -33,7 +33,7 @@ const dialogos = [
         imagen: "Media/-..webp"
     },
     {
-        texto: "Ah! Y hola Angie y Mario, sé que les van a enviar la web 👋👋",
+        texto: "Ah! Y hola Angie y Mario, sé que les van a enviar la web U_U",
         imagen: "Media/GatoDedo.png"
     },
     {
