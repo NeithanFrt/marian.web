@@ -1,0 +1,99 @@
+body {
+    background: linear-gradient(180deg, #3d4b6b 0%, #1f2a40 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    cursor: pointer;
+    flex-direction: column;
+}
+
+.game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.ddlc-character-container {
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 20px;
+}
+
+.character {
+    max-height: 100%;
+    transition: opacity 0.2s ease-in-out;
+}
+
+.ddlc-textbox {
+    position: relative;
+    width: 350px;
+    height: 140px;
+    background-color: #fce4ec;
+    border: 4px solid #ffb6c1;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    font-family: 'Verdana', sans-serif;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top: 1rem;
+}
+
+.ddlc-name-box {
+    position: absolute;
+    top: -22px;
+    left: 20px;
+    background-color: #ff80bf;
+    border: 2px solid #ffffff;
+    border-radius: 8px;
+    padding: 4px 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#ddlc-character-name {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 16px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.ddlc-dialogue-content p {
+    color: #4a2e35;
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 10px 0 0 0;
+}
+
+.ddlc-next-indicator {
+    position: absolute;
+    bottom: 12px;
+    right: 15px;
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 10px solid #ff80bf;
+    animation: bounce 0.8s infinite alternate;
+}
+
+@keyframes bounce {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(4px); }
+}
+
+@keyframes characterBounce {
+    0% { transform: translateY(0); }
+    40% { transform: translateY(-5px); } /* Sube un poco */
+    70% { transform: translateY(0); }     /* Baja */
+    85% { transform: translateY(-2px); }  /* Pequeño rebote extra */
+    100% { transform: translateY(0); }    /* Posición normal */
+}
+
+/* Clase que aplicaremos temporalmente con JS para activar el rebote */
+.bounce-animation {
+    animation: characterBounce 0.4s ease-in-out;
+}

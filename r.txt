@@ -1,0 +1,24 @@
+    {
+        texto: "Hola Marian! Le hice una web y espero no se extrañe demasiado...",
+        imagen: "Media/UwU.webp"
+    },
+    {
+        texto: "No me bloquee por favor 😭😭 (Ya me ha pasado)",
+        imagen: "Media/Angy.webp"
+    },
+    {
+        texto: "Bueno el punto...",
+        imagen: "Media/A.webp"
+    },
+    {
+        texto: "La cosa es que soy un autista bien fracasado que le da penita todo",
+        imagen: "Media/-..webp"
+    },
+    {
+        texto: "No sé hablar con la gente y menos con güilas que me gustan",
+        imagen: "Media/-..webp"
+    },
+    {
+        texto: "El tema es que si actuó extraño es porque ",
+        imagen: "Media/-..webp"
+    },
